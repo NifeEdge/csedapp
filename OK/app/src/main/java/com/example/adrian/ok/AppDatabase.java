@@ -19,6 +19,8 @@ public abstract class AppDatabase extends RoomDatabase {
 
     public abstract UserDao userDao();
 
+    public abstract WorkoutDao workoutDao();
+
     public static AppDatabase getInstance(Context context) {
         if (instance == null) {
             instance = Room.databaseBuilder(context.getApplicationContext(), AppDatabase.class, "user-database")
