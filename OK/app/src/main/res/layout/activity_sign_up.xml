@@ -21,48 +21,48 @@
         >
 
         <EditText
+            android:id="@+id/f_name"
             android:layout_width="700px"
             android:layout_height="wrap_content"
-            android:hint="First Name"
-            android:textSize="35sp"
-            android:layout_marginRight="200px"
             android:layout_marginBottom="20px"
-            />
+            android:layout_marginRight="200px"
+            android:hint="First Name"
+            android:textSize="35sp" />
 
         <EditText
+            android:id="@+id/l_name"
             android:layout_width="700px"
             android:layout_height="wrap_content"
-            android:textSize="35sp"
-            android:hint="Last Name"
             android:layout_marginBottom="200px"
-            />
+            android:hint="Last Name"
+            android:textSize="35sp" />
 
         <EditText
+            android:id="@+id/username"
             android:layout_width="700px"
             android:layout_height="wrap_content"
-            android:textSize="35sp"
             android:hint="Username"
 
-            />
+            android:textSize="35sp" />
 
         <EditText
+            android:id="@+id/password"
             android:layout_width="700px"
             android:layout_height="wrap_content"
-            android:textSize="35sp"
+            android:layout_marginBottom="80px"
             android:hint="Password"
             android:inputType="textPassword"
-            android:layout_marginBottom="80px"
-            />
+            android:textSize="35sp" />
 
         <Button
-            android:layout_gravity="center"
+            android:id="@+id/btnRegister"
             android:layout_width="600px"
             android:layout_height="wrap_content"
-            android:text="Register"
-            android:textSize="30sp"
+            android:layout_gravity="center"
             android:background="@drawable/rounded_button"
+            android:text="Register"
 
-            />
+            android:textSize="30sp" />
     </LinearLayout>
 
 </LinearLayout>

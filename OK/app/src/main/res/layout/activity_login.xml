@@ -35,45 +35,44 @@
         android:paddingTop="70px">
 
         <EditText
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10px"
             android:drawableLeft="@drawable/person"
             android:hint="Username"
-            android:textSize="35sp"
-            />
+            android:textSize="35sp" />
 
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
             android:drawableLeft="@drawable/lock"
             android:hint="Password"
             android:inputType="textPassword"
-            android:textSize="35sp"
-            android:layout_marginBottom="50px"
-            />
+            android:textSize="35sp" />
 
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="700px"
             android:layout_height="180px"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/rounded_button"
             android:padding="0px"
             android:text="Login"
-            android:textSize="35sp"
-            android:layout_gravity="center"
-            android:background="@drawable/rounded_button"
-            android:layout_marginBottom="10sp"
-            />
+            android:textSize="35sp" />
 
         <Button
-            android:id="@+id/btnregister"
+            android:id="@+id/btnRegister"
             android:layout_width="700px"
             android:layout_height="180px"
             android:layout_gravity="center"
+            android:layout_marginBottom="40px"
             android:background="@drawable/rounded_button"
             android:text="Sign up"
-            android:textSize="35sp"
-            android:layout_marginBottom="40px"
-            />
+            android:textSize="35sp" />
     </LinearLayout>
 
 
